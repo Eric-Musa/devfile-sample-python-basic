@@ -23,5 +23,5 @@ RUN pip install -r requirements.txt
 COPY . .
 
 EXPOSE 8081
-CMD [ "waitress-serve", "--port=8081", "app:app"]
+CMD [ "waitress-serve", "--port=8081", "flask_app:app"]
 
